@@ -1,8 +1,4 @@
 /* Шапка */
-$(document).ready(function(){
- $('.header').height($(window).height());
-/* $('.overlay').height($(window).height());*/
-})
 $(".navbar a").click(function(){
   $("body,html").animate({
    scrollTop:$("#" + $(this).data('value')).offset().top
@@ -12,4 +8,14 @@ $(".navbar a").click(function(){
 $(document).ready(function() { 
 	$("a.fancyimage").fancybox(); 
 	});
+$(document).ready(function() {
+	
+	$("a.group").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+});
 
