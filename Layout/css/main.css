@@ -112,10 +112,10 @@ ul, li {
 	padding-bottom: 40px;
 }
 .bio__image{
-	display: block;
-	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 
 #gallery{
 	background: #f4f4f4;
