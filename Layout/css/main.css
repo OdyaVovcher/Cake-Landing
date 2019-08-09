@@ -125,23 +125,68 @@ ul, li {
 
 .gallery__content{
 	margin-top: 75px;
-	margin-bottom: 120px;
+	margin-bottom: 85px;
 }
 
 .thumb img {  
 
 } 
 .thumb img:hover { 
-/* 	filter: gray; IE6-9 
- -webkit-filter: grayscale(0.3); */ 
+	text-shadow:  0.5px 0.5px 2px #000; 
 } 
 .thumb {
 	padding:5px; 
 
 }
 
+
+
 /* Contacts */
 
-.sm__contacts{
-	margin-top: 40px;
+.contacts__content{
+	margin-top: 85px;
+	margin-bottom: 73px; /* !Убрать */
+}
+.contacts__content__text{
+ text-align: left;
+ border-radius: 7px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.contacts__content__text ul{
+	padding-top: 3em;
+	padding-right: 1.2em;
+}
+.contacts__content__text li{
+	padding-bottom: 30px;
+	font-style: 30px;
+}
+.contacts__content__text li span{
+	font-weight: 600;
+}
+.contacts__icon{
+	font-size: 33px;
+	margin-right: 10px;
+	color: #9cb9bd;
+}
+.map{
+	width:450px;
+ 	height:320px;
+}
+.footer{
+	height: 150px;
+	background: #d2be77 !important;
+}
+.social__media{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.social__media__icons{
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+}
+.social__media__icon{
+	margin-left: 20px;
+	font-size: 33px;
 }
