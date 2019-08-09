@@ -22,16 +22,16 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a href="#header" class="nav-link">Главная</a>
+						<a href="#header" class="nav-link" data-value = 'header' >Главная</a>
 					</li>
 					<li class="nav-item">
-						<a href="#about" class="nav-link">О нас</a>
+						<a href="#about" class="nav-link" data-value = 'about' >О нас</a>
 					</li>
 					<li class="nav-item">
-						<a href="#gallery" class="nav-link">Галерея заказов</a>
+						<a href="#gallery" class="nav-link" data-value = 'gallery' >Галерея заказов</a>
 					</li>
 					<li class="nav-item">
-						<a href="#contacts" class="nav-link">Контакты</a>
+						<a href="#contacts" class="nav-link" data-value = 'contacts' >Контакты</a>
 					</li>
 				</ul>
 			</div>
@@ -53,36 +53,39 @@
 	</header>		
 	</section>
 	<section class="about" id ="about">
-		<div class="container">
-			<div class="section__title">
-				<h2 class="section__header"> О Нас</h2>
-				<hr class="hr__section">
-				<p class="section__header__text">Лорем инспут долор велит сит амет</p>
-			</div>
-			<div class="about__blocks">
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="about__block">
-							<i class=""></i>
-							<i class="fas fas fa-birthday-cake about__icon"></i>
-							<h3>Качественные ингредиенты</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci porro autem nobis sunt! Laborum.</p>
+		<div class="about__commerce">
+			<div class="container">
+				<div class="section__title">
+					<h2 class="section__header"> О Нас</h2>
+					<hr class="hr__section">
+					<p class="section__header__text">Лорем инспут долор велит сит амет</p>
+				</div>
+				<div class="about__blocks">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="about__block">
+								<i class=""></i>
+								<i class="fas fas fa-birthday-cake about__icon"></i>
+								<h3>Качественные ингредиенты</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci porro autem nobis sunt! Laborum.</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="about__block">
+								<i class="fas fa-birthday-cake about__icon"></i>
+								<h3>Качественные ингредиенты</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci porro autem nobis sunt! Laborum.</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="about__block">
+								<i class="fas fa-birthday-cake about__icon"></i>
+								<h3>Качественные ингредиенты</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci porro autem nobis sunt! Laborum.</p>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-4">
-						<div class="about__block">
-							<i class="fas fa-birthday-cake about__icon"></i>
-							<h3>Качественные ингредиенты</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci porro autem nobis sunt! Laborum.</p>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="about__block">
-							<i class="fas fa-birthday-cake about__icon"></i>
-							<h3>Качественные ингредиенты</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci porro autem nobis sunt! Laborum.</p>
-						</div>
-					</div>
+					<hr class="hr__lower" style="margin-top: 170px;">
 				</div>
 			</div>
 		</div>
@@ -105,6 +108,57 @@
 			</div>	
 		</div>
 	</section>
+	<section class="gallery" id="gallery">
+		<div class="container">
+			<div class="section__title">
+				<h2 class="section__header">Наши работы</h2>
+				<hr class="hr__section">
+				<p class="section__header__text">Лорем инспут долор велит сит амет</p>
+			</div>
+			<div class="gallery__content">
+				<div class="row">
+					<div class="col-lg-4 thumb">
+						<a class="fancyimage" rel="group" data-fancybox="gallery" href="photo/cake (1).jpg">
+	                	<img class="img-fluid"  src="photo/cake (1).jpg" alt="">
+	            	</a>
+					</div>
+					<div class="col-lg-4 thumb">
+						<a class="fancyimage" rel="group" data-fancybox="gallery" href="photo/cake (2).jpg">
+	                	<img class="img-fluid"  src="photo/cake (2).jpg" alt="">
+	            		</a>
+					</div>
+					<div class="col-lg-4 thumb">
+						<a class="fancyimage" rel="group" data-fancybox="gallery" href="photo/cake (3).jpg">
+	                	<img class="img-fluid"  src="photo/cake (3).jpg" alt="">
+	            		</a>
+					</div>
+					<div class="col-lg-4 thumb">
+						<a class="fancyimage" rel="group" data-fancybox="gallery" href="photo/cake (4).jpg">
+	                	<img class="img-fluid"  src="photo/cake (4).jpg" alt="">
+	            		</a>
+					</div>
+					<div class="col-lg-4 thumb">
+						<a class="fancyimage" rel="group" data-fancybox="gallery" href="photo/cake (5).jpg">
+	                	<img class="img-fluid"  src="photo/cake (5).jpg" alt="">
+	            		</a>
+					</div>
+					<div class="col-lg-4 thumb">
+						<a class="fancyimage" rel="group" data-fancybox="gallery" href="photo/cake (6).jpg">
+	                	<img class="img-fluid"  src="photo/cake (6).jpg" alt="">
+	            		</a>
+					</div>
+				</div>
+			</div>
+			<!-- <hr  class="hr__lower" style="margin-top: 75px;"> -->
+		</div>
+	</section>
+	<footer class="contacts" id = "contacts" data-value = 'contacts'>
+		<div class="container">
+			<div class="section__title">
+				<h2 class="section__header">Как с нами связаться</h2>
+			</div>
+		</div>
+	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
