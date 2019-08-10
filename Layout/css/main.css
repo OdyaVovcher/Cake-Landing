@@ -4,7 +4,7 @@
 /* Спецификация */
 body{
 	font-family: 'Montserrat Alternates', sans-serif;
-	background: # ;
+	
 }
 h1, h2{
 	font-family: 'Roboto Slab', serif;
@@ -28,13 +28,14 @@ ul, li {
 	height: 1px;
 	background-color: #6f6f6f;
 }
-/* *{border: 1px solid red;} */
+
 
 
 /*Navbar*/
 .navbar{
 	background: #d2be77 !important;
 	padding: 0;
+
 }
 
 .navbar-brand span{
@@ -55,7 +56,7 @@ ul, li {
 
 .header{
 	background: url("../img/bg-header2.jpg") no-repeat center top/cover;
-	height: 670px;
+	height: 700px;
 }
 .overlay{
 	margin: 150px auto 0 auto;
@@ -85,13 +86,14 @@ ul, li {
 
 /* About */
 .about{
-	height: 1125px;
+	height: 1200px;
+
 }
 .about__commerce{
-	height: 700px;
+	height: 680px;
 }
 .about__blocks{
-	padding-top: 100px; 
+	padding-top: 140px; 
 }
 .about__block{
 	text-align: center;
@@ -104,7 +106,8 @@ ul, li {
 
 .about__bio{
 	background: url(../img/bg-bio1.jpg) no-repeat center top/cover;
-	height: 420px;
+	height: 520px;
+
 }
 .overlay__bio{
 	margin: 95px auto 0 auto;
@@ -114,12 +117,18 @@ ul, li {
 }
 .bio__text{
 	padding-top: 40px;
-	padding-bottom: 40px;
+
+}
+.bio__text p {
+ 	font-size: 17spx;
+ 	line-height: 1.7em;
+
 }
 .bio__image{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 
 
@@ -142,15 +151,18 @@ ul, li {
 
 
 /* Contacts */
-
+.contacts{
+ background: url(../img/bg-contacts.jpg) no-repeat center top/cover;	
+}
 .contacts__content{
-	margin-top: 85px;
-	margin-bottom: 73px; /* !Убрать */
+	margin-top: 70px;
+	padding-bottom: 73px; /* !Убрать */
 }
 .contacts__content__text{
- text-align: left;
- border-radius: 7px;
- box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	text-align: left;
+	border-radius: 7px;
+	background: rgba(244, 244, 244, 0.77);
+
 }
 .contacts__content__text ul{
 	padding-top: 3em;
@@ -168,25 +180,25 @@ ul, li {
 	margin-right: 10px;
 	color: #9cb9bd;
 }
+.map__container{
+	background: rgba(244, 244, 244, 0.77);
+	padding: 5px;
+	border-radius: 7px;
+
+}
 .map{
-	width:450px;
- 	height:320px;
+	width: 100%;
+	height: 270px;
 }
 .footer{
-	height: 150px;
-	background: #d2be77 !important;
-}
-.social__media{
-	text-align: center;
-	padding-top: 30px;
-	font-size: 20px;
-}
-.social__media__icons{
-	margin-left: 20px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background: #d2be77 !important;
 }
 .social__media__icon{
-	margin-left: 20px;
-	font-size: 33px;
+	font-size: 20px;
+	margin-left: 30px;
 }
+/* *{border: 1px solid red;} */
